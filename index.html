@@ -8,16 +8,16 @@
         <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
         <title>Frontend Mentor | Stats preview card component</title>
     </head>
-    <body class="text-xl font-inter bg-dark-desaturated-blue">
-        <main>
+    <body class="text-xl font-inter bg-black">
+        <main class="lg:flex lg:justify-center lg:items-center lg:w-screen lg:h-screen">
             <!-- card section start -->
-            <section id="card">
+            <section id="card" >
                 <!-- container -->
-               <div class="flex flex-col lg:flex-row-reverse lg:items-center lg:justify-center lg:mt-32">
-                    <div class="w-full lg:w-1/2 lg:pr-16" id="img-div">
-                        <img class="w-full rounded-t-md lg:rounded-md" src="./images/image-header-mobile.jpg" alt="">
+               <div class="flex flex-col lg:flex-row-reverse lg:items-center lg:justify-center lg:p-20 w-full">
+                    <div class="w-full lg:w-1/2 h-96 lg:pr-16 relative z-20" id="img-div">
+                        <div class="absolute bg-soft-violet w-full h-full opacity-40"></div>
                     </div>
-                    <div class="w-full lg:w-1/2 bg-dark-desaturated-blue text-center lg:text-left text-slightly-transparent-white-1 pt-20 pb-4 px-4 md:px-16">
+                    <div class="w-full lg:w-1/2 bg-dark-desaturated-blue text-center lg:text-left text-slightly-transparent-white-1 pt-20 pb-4 px-4 md:px-16 lg:py-20">
                         <h1 class="text-4xl lg:text-5xl font-bold mb-4">Get <span class="text-soft-violet">insights</span> that help your business grow.</h1>
                         <p class="text-slightly-transparent-white-2 mb-6">Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
 

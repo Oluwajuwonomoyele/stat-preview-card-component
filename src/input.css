@@ -5,5 +5,14 @@
 @tailwind utilities;
 
 #img-div {
-    
+    background-image: url('../images/image-header-mobile.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+@media (min-width: 1300px) {
+    #img-div {
+        height: 470px;
+    }
 }
